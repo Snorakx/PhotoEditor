@@ -1,0 +1,43 @@
+body {
+    background: rgb(55, 67, 81);
+    margin: 0;
+}
+
+.shapes {
+    /* padding: 2%; */
+    border: 0;
+}
+
+.filters {
+    /* padding: 2%; */
+    float: right;
+}
+
+canvas {
+    background: grey;
+}
+
+#insertImage {
+    visibility: hidden;
+}
+
+.inputs {
+    position: absolute;
+    top: 1%;
+}
+
+.filters {
+    border: 0;
+    padding: 1.85%;
+    margin: 1px;
+    width: 10%;
+}
+
+#clear,
+#openFile {
+    border: 0;
+}
+
+.colors {
+    width: 84%;
+}
